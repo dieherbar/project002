@@ -1,1 +1,1 @@
-This is a practice web project
+This is a practice web project.
