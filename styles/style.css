@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: #806A61;
+}
+nav{
+    background-color: #DDDFCD;
+}
+main{
+    background-color: #CDA598;
+}
+footer{
+    background-color: #B8B7BE;
+}
+.rounded{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    background-image: url("../assets/img/oldMalePicture.png");
+    background-repeat: no-repeat;
+}
+
+div{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
