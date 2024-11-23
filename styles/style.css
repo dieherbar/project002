@@ -1,13 +1,19 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 header{
     background-color: #806A61;
 }
 nav{
     background-color: #DDDFCD;
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
 }
 main{
     background-color: #CDA598;
@@ -15,7 +21,7 @@ main{
 footer{
     background-color: #B8B7BE;
 }
-.rounded{
+.redondo{
     height: 320px;
     width: 320px;
     border-radius: 50%;
@@ -23,8 +29,19 @@ footer{
     background-repeat: no-repeat;
 }
 
-div{
+.fullPageHeight{
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(186 196 206) !important;/*sin important no toma el color puesto por mi*/
 }
